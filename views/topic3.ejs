@@ -1,0 +1,33 @@
+<%- include('templates/header') -%>
+        <header>
+            <div id="Heading">
+                <img src="AI_logo.gif" alt="img"/>
+                <h1>Artificial Intellegence </h1>
+             </div>
+        </header>
+        <p id="randomInfo">Date: <%= recentDate %></p>
+        <nav> 
+            <a href="/">Home</a>
+            <a href="/buisness">Buisness</a>
+            <a href="/robotics">Robotics</a>
+            <a href ="/computerVision">Computer Vision</a>
+        </nav>
+        <br /><br />
+        
+        <main>
+            
+            <figure id="Computer_vision">
+                <img src="computer_vision.gif" alt="Gif of computer vision"/>
+            </figure>
+            <div id="Subtopic3">
+                <p>Computer vision deals with how computers can be made to <br/>gain a high level understanding from digital images or videos.</p>
+                <p>Self drivving cars use computer vision by having a embedded system that can<br/>scan multiple objects and performe certain tasks based on the results.</p>
+                <p>Another application is face detection its used to automatically recognize and locate human <br/> faces in images and videos.</p>
+                <p>Facial Detection is used in many products relating to security and most commonly for iphones to unlock your phone.</p> 
+                <p>Another application that uses computer vision is tracking which is used to identify and follow a object<br/> within a sequence of images over a certain amount of time.</p>
+                <h2>More on Artificial Intellegence:</h2>
+                <p><a id="Button" href="https://towardsdatascience.com/how-does-ai-detect-objects-technical-d8d63fc12881">Link</a></p>
+                <br/><br/>
+            </div>
+        </main>
+<%- include('templates/footer') -%>

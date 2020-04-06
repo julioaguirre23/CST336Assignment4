@@ -1,0 +1,80 @@
+.error{
+    color:red;
+    text-align:center;
+}
+#randomInfo{
+    text-align:center;
+    font-weight:bold;
+}
+h1{
+    font-family: Helvetica;
+    font-style: oblique;
+}
+#Heading img {
+  float:left;
+  padding-left:210px;
+  position: absolute;
+  top:2px;
+  width: 100px;
+  height: auto;
+}
+h2{
+    font-family: Helvetica;
+    font-style: oblique;
+}
+body{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    color:black;
+}
+header, main, nav, footer{
+    text-align:center;
+    font-family: Helvetica;
+}
+nav a{
+    width: 50%;
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+   	background-color: #D10000; 
+	color: #fff;
+    font-size: 2em;
+    transition: .9s;
+    padding-top: 12px;
+    padding-bottom: 3px; 
+}
+
+#AI, #welcomeText{
+    padding-left: 100px;
+    float:left;
+}
+#Subtopic1{
+    padding-left: 100px;
+    float:left;
+}
+#AI{
+    width: 300px;
+    height: auto;
+}
+ol{
+    text-align: left;
+    padding-left: 200px;
+}
+#Button{
+    color: #0099CC; 
+    background-color: transparent; 
+    border: 2px solid #0099CC; 
+    border-radius: 5px; 
+    text-transform: uppercase; /* Make letters uppercase */
+}
+footer{
+    clear: left;
+    font-family: Helvetica;
+}
+footer img{
+    width: 10%;
+    height: 10%;
+}
